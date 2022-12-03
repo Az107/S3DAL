@@ -1,0 +1,17 @@
+{
+  "name": "S3DAL",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^22.0.0",
+    "electron-packager": "^17.1.1"
+  },
+  "build": {
+    "name": "S3DAL",
+    "icon": "./assets/S3DAL.png"
+  }
+}

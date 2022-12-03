@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>S3DAL</title>
+    <style>
+      #tabs-container {
+      display: flex;
+      }
+
+.tab {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.tab-content {
+  display: none;
+}
+    nav {
+        background-color: #eee;
+        border-bottom: 1px solid #ccc;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+    }
+    @font-face {
+    font-family: 'icons';
+    src: url(https://fonts.gstatic.com/s/i/materialicons/format_color_fill/v6/24px.svg) format('svg');
+    }
+    </style>
+  </head>
+  <body> 
+        <canvas></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.117.1/build/three.min.js"></script>
+    <script src="https://cdn.rawgit.com/mrdoob/three.js/master/examples/js/loaders/OBJLoader.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
+    
+
+<!-- 
+<nav id="navbar">
+  <div id="tabs-container">
+    <div class="tab" data-tab-content="colors">Colores</div>
+    <div class="tab" data-tab-content="textures">Texturas</div>
+    <div class="tab" data-tab-content="objects">Objetos</div>
+  </div>
+  <div id="tab-content">
+    <div id="colors-content" class="tab-content">
+      <label for="color-picker">
+        <input type="color" id="color-picker">
+      </label>
+    </div>
+    <div id="textures-content" class="tab-content">
+      <label for="image-picker">
+        <input type="file" accept="image/*" id="image-picker">
+      </label>
+      <label for="normal-picker">
+        <input type="file" accept="image/*" id="normal-picker">
+      </label>
+      <button id="clear-button">Borrar textura</button>
+    </div>
+    <div id="objects-content" class="tab-content">
+      <button id="play-pause-button">Pausa</button>
+      <label for="obj-picker">
+        <input type="file" accept=".obj" id="obj-picker">
+      </label>
+      <input type="range" min="-10" max="10" step="1" id="x-slider">
+      <input type="range" min="-10" max="10" step="1" id="y-slider">
+    </div>
+  </div>
+  </div>
+  </nav> -->
